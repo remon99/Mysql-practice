@@ -1,0 +1,20 @@
+query 1: Write a query to select customers FirstName, LastName, Email and Country from table Customer
+Ans: select  FirstName, LastName, Email, Country from  Customer
+
+query 2: Write a query to select only the Title from the Album, but named as 'Album Name'
+Ans: select title as "Album Name" from album
+
+query 3: Select all the columns from the Track table
+Ans: select * from Track
+
+query 4: Select Id and Name from Playlists, with a twist
+Ans: select PlaylistId as ID , Name as "Playlist Name" from Playlist
+
+query 5: Select all columns from Address
+Ans: select * from Address
+
+query 6: Select the following columns from Product
+Ans: select ProductNumber, Name, Color, ListPrice, DiscontinuedDate from Product
+
+query 7: Select the columns:CustomerID,Title,FirstName,LastName and EmailAddress from the Customer table,but rename them to be ID,title (doesn't change),FirstName,LastName,Email
+Ans: select CustomerID as ID, Title, FirstName as "First Name",LastName as "Last Name", EmailAddress as Email from Customer
