@@ -1,0 +1,44 @@
+query: Write a SQL query to retrieve the first and last names of all customers in the customer table
+Ans: select first_name, last_name from customer
+
+query: Write a query to retrieve Title and Release Years of films
+Ans: select title as Title , release_year as "Release Year"  from  film
+
+query: Write a SQL query to display the names and addresses of all staff members from the staff table.
+Ans: select first_name as 'First Name', last_name as "Last Name", address_id as Address  from staff
+
+query: Create a SQL query to retrieve the rental IDs and return dates of all rentals from the rental table.
+Ans: select rental_id, return_date from rental
+
+query: Create a SQL query to display the city IDs and names of all cities from the city table.
+Ans: select city_id, city from city
+
+query: Write a SQL query to retrieve all the data from the customer table.
+Ans: select * from customer
+ 
+query: Create a SQL query to retrieve the store IDs and last update timestamps of all stores from the store table
+Ans: select store_id, last_update from store
+
+query: Create a SQL query to list the film IDs, titles, and lengths of all films from the film table.
+Ans: select film_id, title , length from film
+
+query: Write a SQL query to display the rental IDs, rental dates, and return dates of all rentals from the rental table.
+Ans: select rental_id,rental_date, return_date from rental
+
+query: Select the address, district, and postal_code columns from the address table and rename them to Address, District, and Postal Code
+Ans: Select address as Address, district as District, postal_code as "Postal Code" from address 
+
+query:
+Ans:
+
+query:
+Ans:
+
+query:
+Ans:
+
+query:
+Ans:
+
+query:
+Ans:
