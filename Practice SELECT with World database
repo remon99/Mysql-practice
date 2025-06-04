@@ -1,0 +1,32 @@
+Query: Select all the records from the city table.
+Ans: select * from city
+
+Query: Select only the Name and CountryCode columns from the city table
+Ans:Select  Name , CountryCode from city 
+
+Query: Write a query to select all the records from the country table but alias the Name column as Country Name, Continent column as Continent Name and rest of the columns as it is.
+Ans: select Code, Name as "Country Name", Continent as "Continent Name",Region, SurfaceArea, IndepYear, Population, LifeExpectancy, GNP, GNPOld, LocalName, GovernmentForm, HeadOfState, Capital, Code2 from country
+
+Query: Write a query to select only the Code, Name and Continent columns from the country table but alias the Code column as Country Code, Name column as Country Name and Continent column as Continent Name.
+Ans: select Code as "Country Code", Name as "Country Name", continent as "Continent Name" from country 
+
+Query: Write a query to select all the records from the countrylanguage table.
+Ans: select * from  countrylanguage
+
+Query: Write a query to select all records from countrylanguage table but alias the Language column as Language Name and rest of the columns as it is.
+Ans:   select CountryCode , Language as "Language Name", IsOfficial, Percentage from countrylanguage
+
+Query: Write a query to select only the CountryCode, Language and Percentage columns from the countrylanguage table but alias the CountryCode column as Country Code, Language column as Language Name and Percentage column as Language Percentage
+Ans:   select CountryCode as "Country Code", Language as "Language Name", Percentage as "Language Percentage" from countrylanguage
+
+Query: Write a query to select only Name, SurfaceArea and Population columns from the country table.
+Ans: select Name, SurfaceArea, Population from country
+
+Query: Write a query to select only Code, Name, HeadOfState and Capital columns from the country table and alias the Code column as Country Code, Name column as Country Name, HeadOfState column as Head Of State and Capital column as Capital City.
+Ans: select Code as "Country Code", Name as "Country Name", HeadOfStateas "Head Of State" and Capital as "Capital City" from country
+
+Query: Write a query to select only Code, Name, HeadOfState and Capital columns from the country table and alias the Code column as Country Code, Name column as Country Name, HeadOfState column as Head Of State and Capital column as Capital City.
+Ans: select Code as "Country Code", Name as "Country Name", HeadOfState as  "Head Of State" , Capital as "Capital City" from country
+
+Query: Write a query to select Name, CountryCode, District and Population columns from the city table and alias the Name column as City Name, CountryCode column as Country Code, District column as City District and Population column as City Population.
+Ans: select Name as "City Name", CountryCode as "Country Code", District as "City District" , Population as "City Population" from city
