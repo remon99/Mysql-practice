@@ -1,0 +1,31 @@
+Query: Write a SQL query to select all columns from the film table.
+Ans: select * from film
+
+Query: Write a SQL query to select the customer_id, first_name, and last_name columns from the customer table
+Ans:  select customer_id, first_name, last_name  from customer 
+
+Query: Write a SQL query to select the first_name and last_name columns from the customer table, but display them as firstname and lastname in the result set
+Ans: select first_name as firstname ,last_name as lastname from customer
+
+Query: Write a SQL query to select the first_name and last_name columns from the customer table, concatenating them together with a space in between. Display the result as fullname
+Ans: select concat(first_name,' ',last_name) as fullname from customer
+
+Query: Write query to select all the languages from the language table.
+Ans: select name as language from language
+
+Query: Write a SQL query to get the rental_rate and replacement_cost of all the films from the film table, displaying the result as rentalrate and replacementcost.
+Ans: select rental_rate as rentalrate ,replacement_cost as replacementcost from film
+
+Query: Write a SQL query to list the first_name, last_name, and email of all the staff members from the staff table.
+Ans: select first_name, last_name, email from staff
+
+Query: Write a SQL query to list the payment_id, amount, and payment_date of all payments from the payment_p2022_04 table.
+Ans: select payment_id, amount, payment_date from payment_p2022_04
+
+Query: Write a SQL query to get the address of all the customers from the address table. Select only address, address2, district, city_id, and postal_code columns
+Ans: select address, address2, district, city_id, postal_code from address
+
+ 
+
+
+
