@@ -1,0 +1,38 @@
+Query: What's the email of customer number 135?
+Ans: select email from customer where customer_id = 135
+
+Query: What's the category which id is 8?
+Ans: select name from category where category_id = 8
+
+Query: What's the name of the employee number 2?
+Ans: select first_name from staff where staff_id = 2
+
+Query: Is there any other employee apart from Jon? If yes, what's his name?
+Ans: select * from staff where first_name != 'Jon'; "the name is mike"
+
+Query: Are there any movies which rental rate is higher than $5?
+Ans: select * from film where rental_rate>5. (No)
+
+Query: Are there any movies which were released before 2006?
+Ans: SELECT * FROM sakila.film WHERE release_year < 2006
+
+Query: What is the id of the first rental of the year 2006?
+Ans: select rental_id from rental where rental_date >='2006-01-01' order by rental_date ASC limit 1
+
+Query: What's the name of the actor whose last name is LOLLOBRIGIDA?
+Ans: select * from actor where last_name = 'LOLLOBRIGIDA';
+
+Query: Which is the first movie whose replacement cost is equal or higher than $20, when ordered alphabetically?
+Ans: select * from film where replacement_cost >= 20 order by title ASC limit 1
+
+Query: What movie has a rental duration lower than 4 days and the lowest film id?
+Ans: select * from film where rental_duration < 4 order by film_id ASC limit 1
+
+Query: What's the rental rate of the shortest movie that is longer than 2 hours?
+Ans: select rental_rate from film where length >120 order by length ASC limit 1
+
+Query: Display the title and rental rate of all movies that have a rental rate of less than $1.50
+Ans: select title, rental_rate from film where rental_rate <1.50
+
+Query: Display the title and length of all movies that have a length of more than 2 hours
+Ans: select title,length from film where length > 120
